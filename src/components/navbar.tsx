@@ -44,13 +44,15 @@ export function Navbar() {
           >
             Quem somos
           </Link>
+
           <Link
             onClick={() => setIsOpen(false)}
             className={hoverEffectMobile}
-            href="/about-us"
+            href="/project-us"
           >
             Projetos
           </Link>
+
           <Link
             onClick={() => setIsOpen(false)}
             className={hoverEffectMobile}
@@ -104,7 +106,10 @@ export function Navbar() {
             >
               Quem somos
             </Link>
-            <Link className={hoverEffectDesktop} href={"/"}>
+            <Link
+              className={hoverEffectDesktop}
+              href={"/project-us"}
+            >
               Projetos
             </Link>
             <Link className={hoverEffectDesktop} href={"/"}>

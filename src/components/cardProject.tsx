@@ -15,9 +15,9 @@ export default function CardProjects({
 }: cardProjectsProps) {
   return (
     <>
-      <div className="relative flex h-full w-full max-w-[300px] flex-col items-center justify-start gap-2 rounded-md bg-[#3B7338] md:h-[633px] md:w-[1012px] md:max-w-none md:flex-row md:justify-center">
+      <div className="relative flex h-full w-full max-w-[300px] flex-col items-center justify-start gap-2 rounded-md bg-[#3B7338] md:h-[633px] md:w-[700px] md:max-w-none md:flex-row md:justify-center lg:w-[1000px]">
         <div className="absolute left-0 mb-18 hidden h-full w-1/3 rounded-md bg-[#3B7338] md:flex"></div>
-        <div className="flex h-auto max-h-[488px] max-w-[300px] items-center justify-center px-4 pt-8 md:z-50 md:w-1/2 md:max-w-[501px] md:pt-0">
+        <div className="flex h-auto max-h-[488px] items-center justify-center px-4 pt-8 md:z-50 md:w-1/2 md:max-w-[501px] md:pt-0">
           <Image
             src={thumb}
             alt={title}
