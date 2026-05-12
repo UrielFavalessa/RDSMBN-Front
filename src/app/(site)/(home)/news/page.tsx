@@ -3,7 +3,7 @@ import { getNews } from "@/actions/post";
 import SitePagination from "@/components/sitePagination";
 import { redirect } from "next/navigation";
 import { postType } from "@/types/post";
-import { IoSearchOutline } from "react-icons/io5"
+import { IoSearchOutline } from "react-icons/io5";
 
 const NOTICIAS_CATEGORY_ID =
   "019dd54e-ff01-720e-a5ff-5356da3d2c3d";

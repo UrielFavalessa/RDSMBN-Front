@@ -108,7 +108,10 @@ export function Navbar() {
             >
               Documentos
             </Link>
-            <Link className={hoverEffectDesktop} href={"/news"}>
+            <Link
+              className={hoverEffectDesktop}
+              href={"/news"}
+            >
               Comunicação
             </Link>
             <Link className={hoverEffectDesktop} href={"/"}>

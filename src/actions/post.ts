@@ -14,12 +14,18 @@ export async function getNews(
       per_page: perPage.toString(),
     });
 
-    if (categoryId) queryParams.append("category_id", categoryId);
-    if (search) queryParams.append("search", search); 
-    const resp = await baseApi.get(`/posts?${queryParams.toString()}`);
+    if (categoryId)
+      queryParams.append("category_id", categoryId);
+    if (search) queryParams.append("search", search);
+    const resp = await baseApi.get(
+      `/posts?${queryParams.toString()}`
+    );
     return resp.data;
   } catch (error: any) {
-    console.error("Erro ao buscar notícias:", error.message);
+    console.error(
+      "Erro ao buscar notícias:",
+      error.message
+    );
     return null;
   }
 }
