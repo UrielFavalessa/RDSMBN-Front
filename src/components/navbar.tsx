@@ -98,7 +98,10 @@ export function Navbar() {
             <Link className={hoverEffectDesktop} href={"/"}>
               Início
             </Link>
-            <Link className={hoverEffectDesktop} href={"/about-us"}>
+            <Link
+              className={hoverEffectDesktop}
+              href={"/about-us"}
+            >
               Quem somos
             </Link>
             <Link className={hoverEffectDesktop} href={"/"}>
