@@ -89,7 +89,7 @@ export function Navbar() {
             </Link>
           </div>
 
-          <div className="text-dark-green hidden gap-6 text-sm sm:flex md:gap-8 md:text-base lg:gap-16 lg:text-lg xl:text-xl 2xl:gap-32 mx-auto">
+          <div className="text-dark-green mx-auto hidden gap-6 text-sm sm:flex md:gap-8 md:text-base lg:gap-16 lg:text-lg xl:text-xl 2xl:gap-32">
             <Link
               className={hoverEffectDesktop}
               href={"/about-us"}
@@ -102,7 +102,10 @@ export function Navbar() {
             >
               Projetos
             </Link>
-            <Link className={hoverEffectDesktop} href={"/documents"}>
+            <Link
+              className={hoverEffectDesktop}
+              href={"/documents"}
+            >
               Documentos
             </Link>
             <Link className={hoverEffectDesktop} href={"/"}>
