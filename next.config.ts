@@ -1,13 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      process.env.NEXT_PUBLIC_API_DOMAIN,
-      "via.placeholder.com",
-    ], // Permite imagens externas
-  },
-  eslint: {
-    ignoreDuringBuilds: true, // Ignora erros de ESLint durante o build
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname:
+          process.env.NEXT_PUBLIC_API_DOMAIN || "localhost",
+      },
+      {
+        protocol: "https",
+        hostname: "via.placeholder.com",
+      },
+    ],
   },
 };
 
