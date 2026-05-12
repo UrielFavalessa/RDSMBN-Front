@@ -63,7 +63,7 @@ export function Navbar() {
           <Link
             onClick={() => setIsOpen(false)}
             className={hoverEffectMobile}
-            href="/"
+            href="/news"
           >
             Contato
           </Link>
