@@ -65,6 +65,22 @@
   --color-light-green: var(--light-green);
   --color-green-grass: var(--green-grass);
   --color-light-grass: var(--light-grass);
+  --color-doc-card: var(--doc-card);
+  --color-doc-title: var(--doc-title);
+  --color-doc-blue: var(--doc-blue);
+  --color-doc-green: var(--doc-green);
+  --color-doc-link-blue: var(--doc-link-blue);
+  --color-doc-link-green: var(--doc-link-green);
+  --color-doc-gradient-from: var(--doc-gradient-from);
+  --color-gradient-via-blue: var(--gradient-via-blue);
+  --color-gradient-via-green: var(--gradient-via-green);
+  --color-gradient-to-blue: var(--gradient-to-blue);
+  --color-gradient-to-green: var(--gradient-to-green);
+  --color-paginate-cyan: var(--paginate-cyan);
+  --color-skel-base: var(--skel-base);
+  --color-skel-gradient-from: var(--skel-gradient-from);
+  --color-skel-gradient-via: var(--skel-gradient-via);
+  --color-skel-gradient-to: var(--skel-gradient-to);
 }
 
 @media (prefers-color-scheme: light) {
@@ -73,6 +89,8 @@
     --foreground: #ededed;
   }
 }
+
+
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -131,6 +149,22 @@ textarea:-webkit-autofill:focus {
   --light-green: oklch(60.5% 0.127 168);
   --green-grass: oklch(0.4994 0.105 143.12);
   --light-grass: oklch(66.5% 0.173 145);
+  --doc-card: #f2efea;
+  --doc-title: #002e51;
+  --doc-blue: #004e89;
+  --doc-green: #005b46;
+  --doc-link-blue: #00a8e8;
+  --doc-link-green: #0e7b00;
+  --doc-gradient-from: #bed8c2;
+  --gradient-via-blue: #bad3bf;
+  --gradient-via-green: #dae9ab;
+  --gradient-to-blue: #217599;
+  --gradient-to-green: #a5bd80;
+  --paginate-cyan: #00b3c6;
+  --skel-base: #e7e1d6;
+  --skel-gradient-from: #d9ead8;
+  --skel-gradient-via: #c4e0d5;
+  --skel-gradient-to: #7cb7c3;
 }
 
 .dark {

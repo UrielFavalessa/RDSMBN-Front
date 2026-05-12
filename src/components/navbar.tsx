@@ -35,13 +35,6 @@ export function Navbar() {
             className={hoverEffectMobile}
             href="/"
           >
-            Início
-          </Link>
-          <Link
-            onClick={() => setIsOpen(false)}
-            className={hoverEffectMobile}
-            href="/"
-          >
             Quem somos
           </Link>
 
@@ -56,7 +49,7 @@ export function Navbar() {
           <Link
             onClick={() => setIsOpen(false)}
             className={hoverEffectMobile}
-            href="/"
+            href="/documents"
           >
             Documentos
           </Link>
@@ -76,7 +69,7 @@ export function Navbar() {
           </Link>
         </div>
 
-        <div className="bg-green-grass sm:bg-surface font-anton flex h-[94px] w-full flex-row items-center justify-between">
+        <div className="bg-green-grass sm:bg-surface font-anton flex h-[94px] w-full flex-row items-center">
           <div>
             <Link href="/">
               <Image
@@ -96,10 +89,7 @@ export function Navbar() {
             </Link>
           </div>
 
-          <div className="text-dark-green hidden gap-6 text-sm sm:flex md:gap-8 md:text-base lg:gap-16 lg:text-lg xl:text-xl 2xl:gap-32">
-            <Link className={hoverEffectDesktop} href={"/"}>
-              Início
-            </Link>
+          <div className="text-dark-green hidden gap-6 text-sm sm:flex md:gap-8 md:text-base lg:gap-16 lg:text-lg xl:text-xl 2xl:gap-32 mx-auto">
             <Link
               className={hoverEffectDesktop}
               href={"/about-us"}
@@ -112,7 +102,7 @@ export function Navbar() {
             >
               Projetos
             </Link>
-            <Link className={hoverEffectDesktop} href={"/"}>
+            <Link className={hoverEffectDesktop} href={"/documents"}>
               Documentos
             </Link>
             <Link className={hoverEffectDesktop} href={"/"}>
@@ -122,12 +112,6 @@ export function Navbar() {
               Contato
             </Link>
           </div>
-
-          <Link href="/auth/sign-in">
-            <div className="text-light-green border-light-green hover:bg-light-green mr-6 hidden cursor-pointer border-2 p-2 pt-1 pb-1 text-sm transition-colors duration-300 ease-in-out hover:text-white sm:flex md:mr-8 md:pr-4 md:pl-4 md:text-base lg:text-lg xl:text-xl 2xl:mr-20">
-              Login
-            </div>
-          </Link>
 
           <button
             className="mr-6 sm:hidden"
