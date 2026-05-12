@@ -275,6 +275,70 @@ export default function Home() {
             SAIBA MAIS
           </button>
         </div>
+        <div className="flex-reverse flex">
+          <div className="mt-10 ml-auto w-8/12 rounded-sm bg-[#00a8e8]">
+            <h2 className="mt-10 mb-2 text-center text-4xl text-white">
+              Nosso Contato
+            </h2>
+            <div className="m-auto mt-20 flex max-w-150 flex-wrap justify-center gap-10">
+              <div className="flex h-[151px] w-[231px] flex-col justify-center gap-7 rounded-md bg-white p-2">
+                <Image
+                  src={"/zap.svg"}
+                  alt="WhatsApp"
+                  className="mx-auto"
+                  width={70}
+                  height={70}
+                />
+                <div className="rounded-sm bg-[#005f8f] text-center text-white">
+                  +55 27 99999-9999
+                </div>
+              </div>
+              <div className="flex h-[151px] w-[231px] flex-col justify-center gap-7 rounded-md bg-white p-2">
+                <Image
+                  src={"/Mailbox.svg"}
+                  alt="WhatsApp"
+                  className="mx-auto"
+                  width={70}
+                  height={70}
+                />
+                <div className="rounded-sm bg-[#005f8f] text-center text-white">
+                  example@example
+                </div>
+              </div>
+              <div className="flex h-[151px] w-[231px] flex-col justify-center gap-7 rounded-md bg-white p-2">
+                <Image
+                  src={"/InstagramLogo.svg"}
+                  alt="WhatsApp"
+                  className="mx-auto"
+                  width={70}
+                  height={70}
+                />
+                <div className="rounded-sm bg-[#005f8f] text-center text-white">
+                  @RDSMbarranova
+                </div>
+              </div>
+              <div className="flex h-[151px] w-[231px] flex-col justify-center gap-7 rounded-md bg-white p-2">
+                <Image
+                  src={"/cell.svg"}
+                  alt="WhatsApp"
+                  className="mx-auto"
+                  width={70}
+                  height={70}
+                />
+                <div className="rounded-sm bg-[#005f8f] text-center text-white">
+                  +55 27 99999-9999
+                </div>
+              </div>
+            </div>
+          </div>
+          <Image
+            src={"/flor.svg"}
+            className="mt-10 -ml-1"
+            alt=""
+            width={300}
+            height={200}
+          />
+        </div>
         <div>
           <h2 className="mt-10 mb-10 text-center text-4xl">
             Conheça nossa RDSM de Barra Nova
