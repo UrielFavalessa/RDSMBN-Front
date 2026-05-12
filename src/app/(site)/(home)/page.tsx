@@ -276,10 +276,16 @@ export default function Home() {
           </button>
         </div>
         <div>
-          <h2 className="mb-10 text-center text-4xl mt-10">
+          <h2 className="mt-10 mb-10 text-center text-4xl">
             Conheça nossa RDSM de Barra Nova
           </h2>
-          <Image src={'/Rectangle109.png'} className="mx-auto" alt="" width={1012} height={532}/>
+          <Image
+            src={"/Rectangle109.png"}
+            className="mx-auto"
+            alt=""
+            width={1012}
+            height={532}
+          />
         </div>
       </div>
     </>
