@@ -47,7 +47,7 @@ export function Navbar() {
           <Link
             onClick={() => setIsOpen(false)}
             className={hoverEffectMobile}
-            href="/"
+            href="/about-us"
           >
             Projetos
           </Link>
@@ -98,7 +98,7 @@ export function Navbar() {
             <Link className={hoverEffectDesktop} href={"/"}>
               Início
             </Link>
-            <Link className={hoverEffectDesktop} href={"/"}>
+            <Link className={hoverEffectDesktop} href={"/about-us"}>
               Quem somos
             </Link>
             <Link className={hoverEffectDesktop} href={"/"}>
