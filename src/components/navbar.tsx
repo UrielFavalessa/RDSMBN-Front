@@ -73,14 +73,14 @@ export function Navbar() {
           <div>
             <Link href="/">
               <Image
-                className="ml-6 hidden cursor-pointer sm:block md:ml-8 2xl:ml-20"
+                className="ml-6 hidden cursor-pointer sm:block md:ml-8 2xl:ml-20 transition-[filter] duration-300 hover:filter-[invert(35%)_sepia(40%)_saturate(500%)_hue-rotate(80deg)_brightness(85%)]"
                 src="./rdsmbn-logo.svg"
                 alt="RDSMBN logo"
                 width={60}
                 height={60}
               />
               <Image
-                className="ml-6 cursor-pointer sm:hidden md:ml-8 2xl:ml-20"
+                className="ml-6 cursor-pointer sm:hidden md:ml-8 2xl:ml-20 transition-[filter] duration-300 hover:filter-[invert(35%)_sepia(40%)_saturate(500%)_hue-rotate(80deg)_brightness(85%)]"
                 src="./rdsmbn-logo-white.svg"
                 alt="RDSMBN logo"
                 width={60}

@@ -81,6 +81,7 @@
   --color-skel-gradient-from: var(--skel-gradient-from);
   --color-skel-gradient-via: var(--skel-gradient-via);
   --color-skel-gradient-to: var(--skel-gradient-to);
+  --color-brand-green: var(--brand-green);
 }
 
 @media (prefers-color-scheme: light) {
@@ -163,6 +164,7 @@ textarea:-webkit-autofill:focus {
   --skel-gradient-from: #d9ead8;
   --skel-gradient-via: #c4e0d5;
   --skel-gradient-to: #7cb7c3;
+  --brand-green: oklch(45% 0.25 135);
 }
 
 .dark {
