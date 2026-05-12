@@ -158,6 +158,130 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="font-anton pb-15">
+        <h2 className="mb-10 text-center text-4xl">
+          Últimas notícias
+        </h2>
+        <div className="flex flex-col items-center justify-center gap-10">
+          <div className="flex justify-center gap-10">
+            <div className="flex max-w-118 flex-col items-center overflow-hidden rounded-lg bg-[#F2EFEA] break-words md:items-center lg:items-center xl:flex-row xl:items-start">
+              <div
+                className="relative flex-shrink-0"
+                style={{ width: "214px", height: "313px" }}
+              >
+                <div
+                  className="absolute top-0 left-0 z-10 h-full overflow-hidden bg-[#009B77]"
+                  style={{
+                    width: "214px",
+                    borderRadius:
+                      "4px 45% 35% 4px / 4px 50% 50% 4px",
+                  }}
+                ></div>
+                <div
+                  className="absolute top-0 left-0 z-20 h-full overflow-hidden bg-[#00B3C6]"
+                  style={{
+                    width: "211px",
+                    borderRadius:
+                      "4px 70% 38% 4px / 4px 50% 50% 4px",
+                  }}
+                ></div>
+
+                <div
+                  className="absolute top-0 left-0 z-30 h-full overflow-hidden bg-gray-200"
+                  style={{
+                    width: "210px",
+                    borderRadius:
+                      "4px 45% 41% 4px / 4px 50% 50% 4px",
+                  }}
+                >
+                  <img
+                    src={"/noticias46.png"}
+                    alt="Capa"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-1 flex-col justify-center p-4 md:items-center xl:items-start">
+                <h4 className="mb-2 text-left text-xl font-extrabold text-[#005B46]">
+                  Melhores passeios de Barra Nova
+                </h4>
+                <p className="font-inter line-clamp-12 text-sm text-[#005B46]">
+                  A Reserva de Desenvolvimento de Barra nova
+                  separou 10 destinos para os turistas
+                  aproveitarem
+                </p>
+                <div className="flex items-center justify-center py-10 pr-4">
+                  <button className="flex w-auto cursor-pointer rounded-sm bg-[#00A8E8] px-4 py-2 font-bold text-white hover:bg-blue-700">
+                    LER MATÉRIA
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="flex max-w-118 items-center overflow-hidden rounded-lg bg-[#F2EFEA] break-words md:items-center lg:items-center xl:items-start">
+              <div
+                className="relative flex-shrink-0"
+                style={{ width: "214px", height: "313px" }}
+              >
+                <div
+                  className="absolute top-0 left-0 z-10 h-full overflow-hidden bg-[#009B77]"
+                  style={{
+                    width: "214px",
+                    borderRadius:
+                      "4px 45% 35% 4px / 4px 50% 50% 4px",
+                  }}
+                ></div>
+                <div
+                  className="absolute top-0 left-0 z-20 h-full overflow-hidden bg-[#00B3C6]"
+                  style={{
+                    width: "211px",
+                    borderRadius:
+                      "4px 70% 38% 4px / 4px 50% 50% 4px",
+                  }}
+                ></div>
+
+                <div
+                  className="absolute top-0 left-0 z-30 h-full overflow-hidden bg-gray-200"
+                  style={{
+                    width: "210px",
+                    borderRadius:
+                      "4px 45% 41% 4px / 4px 50% 50% 4px",
+                  }}
+                >
+                  <img
+                    src={"/noticia53.png"}
+                    alt="Capa"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+              </div>
+              <div className="flex flex-1 flex-col justify-center p-4 md:items-center xl:items-start">
+                <h4 className="mb-2 text-left text-xl font-extrabold text-[#005B46]">
+                  Praia Barra Nova em São Mateus
+                </h4>
+                <p className="font-inter line-clamp-12 text-sm text-[#005B46]">
+                  Confira tudo sobre a praia que se
+                  transformou em um refúgio para aqueles que
+                  querem um passeio tranquilo
+                </p>
+                <div className="flex items-center justify-center py-10 pr-4">
+                  <button className="flex w-auto cursor-pointer rounded-sm bg-[#00A8E8] px-4 py-2 font-bold text-white hover:bg-blue-700">
+                    LER MATÉRIA
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button className="mt-3 w-56 cursor-pointer rounded-sm bg-[#1f6a2b] py-1 text-[26px] text-white transition-all duration-100 hover:scale-98 hover:bg-[#1a5a24]/85">
+            SAIBA MAIS
+          </button>
+        </div>
+        <div>
+          <h2 className="mb-10 text-center text-4xl mt-10">
+            Conheça nossa RDSM de Barra Nova
+          </h2>
+          <Image src={'/Rectangle109.png'} className="mx-auto" alt="" width={1012} height={532}/>
+        </div>
+      </div>
     </>
   );
 }
