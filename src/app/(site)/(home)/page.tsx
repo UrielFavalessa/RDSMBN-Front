@@ -87,9 +87,74 @@ export default function Home() {
               da biodiversidade e dos recursos naturais da
               região.
             </p>
-            <button className="bg-[#1f6a2b] text-white w-56 mt-3 text-[30px] py-1 cursor-pointer hover:bg-[#1a5a24]/85 rounded-sm transition-all duration-100 hover:scale-98">
+            <button className="mt-3 w-56 cursor-pointer rounded-sm bg-[#1f6a2b] py-1 text-[30px] text-white transition-all duration-100 hover:scale-98 hover:bg-[#1a5a24]/85">
               SAIBA MAIS
             </button>
+          </div>
+        </div>
+        <div className="flex w-full justify-center gap-16 bg-[linear-gradient(143.38deg,#7ED957_32.46%,#489428_46.09%,#9DD687_59.7%,#B8E2B0_87.9%,#00C670_101.92%)] py-15">
+          <div className="relative cursor-pointer transition-all duration-200 hover:scale-105">
+            <div className="relative w-[253px]">
+              <Image
+                src={"/Rectangle25.png"}
+                alt=""
+                width={258}
+                height={258}
+                className="absolute rounded-sm"
+              />
+              <p className="font-anton absolute top-63 left-3 text-center text-2xl font-bold text-white">
+                Artesanato Barra Nova
+              </p>
+            </div>
+            <Image
+              src={"/project1.png"}
+              alt="project1"
+              className="rounded-sm"
+              width={253}
+              height={250}
+            />
+          </div>
+          <div className="relative cursor-pointer transition-all duration-200 hover:scale-105">
+            <div className="relative w-[253px]">
+              <Image
+                src={"/Rectangle25.png"}
+                alt=""
+                width={258}
+                height={258}
+                className="absolute rounded-sm"
+              />
+              <p className="font-anton absolute top-56 left-3 text-center text-2xl font-bold text-white">
+                Dança cultural em Barra Nova
+              </p>
+            </div>
+            <Image
+              src={"/project2.png"}
+              alt="project2"
+              className="rounded-sm"
+              width={253}
+              height={250}
+            />
+          </div>
+          <div className="relative cursor-pointer transition-all duration-200 hover:scale-105">
+            <div className="relative w-[253px]">
+              <Image
+                src={"/Rectangle25.png"}
+                alt=""
+                width={258}
+                height={258}
+                className="absolute rounded-sm"
+              />
+              <p className="font-anton absolute top-60 left-3 text-center text-2xl font-bold text-white">
+                Educação Ambiental
+              </p>
+            </div>
+            <Image
+              src={"/project3.png"}
+              alt="project2"
+              className="rounded-sm"
+              width={253}
+              height={250}
+            />
           </div>
         </div>
       </div>
