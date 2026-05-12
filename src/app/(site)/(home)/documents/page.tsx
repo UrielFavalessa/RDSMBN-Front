@@ -42,7 +42,7 @@ export default async function DocumentsPage({
       url: "",
       file: "pdf.pdf",
       created_at: "2023-01-01",
-      updated_at: "2023-01-01",
+      updated_at: "2023-02-01",
     },
     {
       id: "3",
@@ -51,7 +51,7 @@ export default async function DocumentsPage({
       url: "",
       file: "dale.pdf",
       created_at: "2023-01-01",
-      updated_at: "2023-01-01",
+      updated_at: "2023-02-01",
     },
     {
       id: "4",
@@ -60,7 +60,7 @@ export default async function DocumentsPage({
       url: "",
       file: "asdas.jpg",
       created_at: "2023-01-01",
-      updated_at: "2023-01-01",
+      updated_at: "2023-02-01",
     },
     {
       id: "5",
@@ -69,7 +69,7 @@ export default async function DocumentsPage({
       url: "/documents/5",
       file: "",
       created_at: "2023-01-01",
-      updated_at: "2023-01-01",
+      updated_at: "2023-02-01",
     },
     {
       id: "6",
@@ -78,7 +78,7 @@ export default async function DocumentsPage({
       url: "/documents/6",
       file: "",
       created_at: "2023-01-01",
-      updated_at: "2023-01-01",
+      updated_at: "2024-01-01",
     },
   ];
 
